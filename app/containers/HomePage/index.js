@@ -9,7 +9,9 @@ import reducer from './reducer';
 import saga from './saga';
 import HomePage from './HomePage';
 
-const mapDispatchToProps = (dispatch) => ({
+// dispatch currently unused
+// add back to args when we use it again
+const mapDispatchToProps = () => ({
 });
 
 const mapStateToProps = createStructuredSelector({

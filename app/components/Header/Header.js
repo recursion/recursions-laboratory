@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import beakerImg from './images/beaker.png';
 import './style.scss';
 
@@ -8,12 +8,13 @@ class Header extends React.Component { // eslint-disable-line react/prefer-state
     return (
       <div className="header">
         <figure className="image">
-          <img className="is-rounded" src={beakerImg} alt="Beaker from the muppets." />
+          <img className="is-rounded" src={beakerImg} alt="Mad Scientist Muppet." />
         </figure>
         <div className="has-text-centered">
-          <h1 className="title">Recursion&apos;s Laboratory</h1>
-          <h6 className="subtitle">A little about me and the things I&apos;ve built.</h6>
+          <h1 className="title is-size-5-mobile">Recursion&apos;s Laboratory</h1>
+          <h6 className="subtitle is-size-7-mobile">Profile of a mad scientist.</h6>
         </div>
+        {/*
         <div className="nav-bar">
           <Link className="router-link" to="/">
             Home
@@ -25,6 +26,7 @@ class Header extends React.Component { // eslint-disable-line react/prefer-state
             Projects
           </Link>
         </div>
+        */}
       </div>
     );
   }

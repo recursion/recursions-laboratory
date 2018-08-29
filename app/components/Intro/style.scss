@@ -1,7 +1,7 @@
 
 .intro {
   img {
-    width: 100px;
+    max-width: 100px;
   }
   p {
     text-indent: 25px;
@@ -18,7 +18,7 @@
 @media only screen and (min-width: 769px) {
   .intro {
     img {
-      width: 150px;
+      max-width: 200px;
     }
     hr {
       width: 80%;

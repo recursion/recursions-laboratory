@@ -29,7 +29,8 @@ const Intro = () => (
         to JavaScript fatigue.
       </p>
       <p>If you want to read more about me, and my history in computing
-        explorations... check out my <a>about me</a> section.</p>
+        explorations... check out my <a>about me</a> section.
+      </p>
     </div>
   </div>
 );

@@ -35,6 +35,7 @@ const Intro = () => (
         Or <a>contact / hire me</a>?
         By all means, do it!
       </p>
+      <hr />
     </div>
   </div>
 );

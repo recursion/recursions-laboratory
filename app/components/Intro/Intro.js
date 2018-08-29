@@ -14,7 +14,7 @@ const Intro = () => (
         A lifelong problem solver who loves building,
         learning and exploring technology of all types.
         I&apos;ve been tinkering with computers since I was a kid in the mid 1980&apos;s,
-        Linux since the early-mid 1990&apos;s and the WWW almost since it first
+        Linux since the early-mid 1990&apos;s, and the WWW almost since it first
         became a protocol. When it comes to computing, I am definitely a Jack-of-all-trades
         and a master at RTFM.
       </p>

@@ -1,8 +1,25 @@
-.about-me {
 
+.intro {
+  img {
+    width: 100px;
+  }
+  p {
+    text-indent: 25px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .intro {
+    img {
+      width: 150px;
+    }
+  }
 }
 
-@media only screen and (min-width: 768px) {
-  .about-me {
+@media only screen and (min-width: 1366px) {
+  .intro {
+    h5, h6 {
+      padding-right: 10px;
+      text-align: right;
+    }
   }
 }

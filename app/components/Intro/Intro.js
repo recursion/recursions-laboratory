@@ -16,7 +16,7 @@ const Intro = () => (
         I&apos;ve been tinkering with computers since I was a kid in the mid 1980&apos;s,
         Linux since the early-mid 1990&apos;s, and the web almost since http first
         became a protocol. When it comes to computing, I am definitely a Jack-of-all-trades
-        and a master at RTFM.
+        and a master of RTFM.
       </p>
       <p>
         While I have dabbled in many different programming

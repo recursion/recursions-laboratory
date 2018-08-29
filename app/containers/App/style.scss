@@ -1,2 +1,11 @@
 .app-wrapper {
 }
+
+@media only screen and (min-width: 1366px) {
+  .app-wrapper {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 20px;
+  }
+}

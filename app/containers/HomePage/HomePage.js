@@ -7,6 +7,7 @@
 import React from 'react';
 // import PropTypes from 'prop-types';
 import { Helmet } from 'react-helmet';
+import Intro from 'components/Intro';
 import './style.scss';
 
 export default class HomePage extends React.PureComponent { // eslint-disable-line react/prefer-stateless-function
@@ -17,11 +18,9 @@ export default class HomePage extends React.PureComponent { // eslint-disable-li
           <title>Recursions Laboratory</title>
           <meta name="description" content="About me, and the things I've built." />
         </Helmet>
-        <div className="home-page">
-          <section className="centered">
-            <p>Some stuff about me here...</p>
-          </section>
-        </div>
+        <section className="section center">
+          <Intro />
+        </section>
       </article>
     );
   }

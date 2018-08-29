@@ -27,7 +27,8 @@ const Intro = () => (
         Elm(<span role="img" aria-label="heart-emoji">❤️</span>). Elm has completely
         opened my eyes to the power of statically typed, functional languages, and simple,
         opinionated language design. I have found it to be an amazing answer
-        to JavaScript fatigue.
+        to JavaScript fatigue and I am definitely looking forward to
+        being able to use it more in the future.
       </p>
       <p>
         Want to learn more <a>about me</a>?

@@ -10,6 +10,7 @@ const Intro = () => (
       </figure>
       <h5 className="title is-size-6-mobile">Michael Symmes</h5>
       <h6 className="subtitle is-size-7-mobile">Explorer. Tinker. Builder.</h6>
+      <hr />
       <p>
         A lifelong problem solver who loves creating,
         learning, and exploring technology of all types.

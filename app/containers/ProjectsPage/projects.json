@@ -1,0 +1,65 @@
+{
+  "projects": {
+    "toy-projects": [
+      {
+        "name": "Simple Calculator",
+        "description": "A basic calculator written in vanilla JavaScript and vanilla css. Not coded to be maintained - so a bit sloppy and untested. Desktop only: not responsive or mobile friendly.",
+        "imageUrl": "images/calculator.png",
+        "tags": ["JavaScript", "CSS", "HTML"],
+        "githubUrl": "https://github.com/recursion/js-calculator",
+        "demoUrl": "/projects/calculator"
+      },
+      {
+        "name": "Simon Game",
+        "description": "A clone of the electronic game Simon with sound and lights! Desktop only: not responsive or mobile friendly.",
+        "imageUrl": "images/simon.png",
+        "tags": ["JavaScript", "CSS", "HTML"],
+        "githubUrl": "https://github.com/recursion/simon",
+        "demoUrl": "projects/simon"
+      },
+      {
+        "name": "Conway's Game of Life",
+        "description": "Conway's game of life implemented in JavaScript with React.",
+        "imageUrl": "images/conways-game.png",
+        "tags": ["JavaScript", "React", "CSS", "Bulma", "Webpack"],
+        "githubUrl": "https://github.com/recursion/js-conways-game-of-life",
+        "demoUrl": "projects/conways"
+      }
+    ],
+    "applications": [
+      {
+        "name": "Newsy",
+        "description": "A web client for searching the newsapi.org api.",
+        "imageUrl": "images/newsy-client.png",
+        "tags": ["JavaScript", "React", "Redux", "Webpack", "Bulma", "SCSS"],
+        "githubUrl": "https://github.com/recursion/newsy-react-client",
+        "demoUrl": "https://newsy.recursionslaboratory.org"
+      },
+      {
+        "name": "JackBeNimble",
+        "description": "A google chrome extension that provides order-entry hotkeys for multiple bitcoin exchanges.",
+        "imageUrl": "images/jbk.png",
+        "tags": ["JavaScript", "Redux", "Webpack", "CSS"],
+        "githubUrl": "https://github.com/recursion/jackBeNimble",
+        "demoUrl": ""
+      },
+      {
+        "name": "HotkeyCommander",
+        "description": "An npm module that provides a sophisticated hotkey management system. Simple end-user configuration through hotkey recording.",
+        "imageUrl": "images/jbk.png",
+        "tags": ["JavaScript", "Redux", "Webpack", "CSS"],
+        "githubUrl": "https://github.com/recursion/hotkeyCommander",
+        "demoUrl": ""
+      },
+      {
+        "name": "FlyptoX",
+        "description": "A cryptocurrency exchange written in Node.js. I was the 'project owner' and full stack developer on this multi-developer project.",
+        "imageUrl": "images/flyptox.png",
+        "tags": ["JavaScript", "Angular", "Express", "Socket.io", "Postgres"],
+        "githubUrl": "https://github.com/flipside/flyptox",
+        "demoUrl": ""
+      }
+
+    ]
+  }
+}

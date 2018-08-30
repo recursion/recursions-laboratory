@@ -1,0 +1,21 @@
+.projects {
+  .nav-container {
+    margin-bottom: 10px;
+
+    &__link {
+      margin: 20px;
+    }
+  }
+  .content {
+    figure {
+      margin-left: 0;
+      margin-right: 1em;
+      margin-bottom: 0.25em;
+    }
+  }
+}
+.card {
+  img {
+    max-width: 100px;
+  }
+}

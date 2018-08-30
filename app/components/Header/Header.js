@@ -1,5 +1,5 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import beakerImg from './images/beaker.png';
 import './style.scss';
 
@@ -44,18 +44,21 @@ export default class Header extends React.PureComponent {
           <div className="navbar-start">
           </div>
           <div className="navbar-end">
-            <a className="navbar-item">
-              Home
-            </a>
-            <a className="navbar-item">
+            <Link className="navbar-item router-link" to="/about">
               About Me
-            </a>
-            <a className="navbar-item">
+            </Link>
+            <Link className="navbar-item router-link" to="/skills">
               Skills
-            </a>
-            <a className="navbar-item">
+            </Link>
+            <Link className="navbar-item router-link" to="/projects">
               Projects
-            </a>
+            </Link>
+            <Link className="navbar-item router-link" to="/contact">
+              Contact
+            </Link>
+            <Link className="navbar-item router-link" to="/">
+              Home
+            </Link>
           </div>
         </div>
       </nav>

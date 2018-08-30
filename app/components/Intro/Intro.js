@@ -30,12 +30,6 @@ const Intro = () => (
         to JavaScript fatigue and I am definitely looking forward to
         being able to use it more in the future.
       </p>
-      <p>
-        Want to learn more <a>about me</a>?
-        See some of <a>my projects</a>?
-        Or <a>contact / hire me</a>?
-        By all means, do it!
-      </p>
       <hr />
     </div>
   </div>

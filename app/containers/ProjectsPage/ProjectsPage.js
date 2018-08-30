@@ -1,35 +1,8 @@
 import React from 'react';
+import ProjectItem from 'components/ProjectItem';
 import { projects } from './projects.json';
-import './style.scss';
 
-const Project = (props) => (
-  <div className="card" key={props.name} >
-    <div className="card-header">
-      <div className="card-header-title">
-        {props.name}
-      </div>
-    </div>
-    <div className="card-content">
-      <div className="media">
-        <div className="content">
-          <figure className="project-image image is-pulled-left">
-            <img src={props.imageUrl} alt="Project" />
-          </figure>
-          {props.description}
-          <hr />
-          <span className="tags-label">Tech Used:</span>
-          {props.tags.join(', ')}
-          <hr />
-          <a className="is-block" href={props.githubUrl}>Source code on Github</a>
-          {(props.demoUrl) ?
-            <a className="is-block" href={props.demoUrl}>See a Demo</a> :
-            ''
-          }
-        </div>
-      </div>
-    </div>
-  </div>
-);
+import './style.scss';
 
 const ProjectsPage = () => (
   <section className="projects">
@@ -38,7 +11,7 @@ const ProjectsPage = () => (
       <a className="nav-container__link">Toy Projects</a>
     </div>
     <h5 className="title has-text-centered">Toy Projects</h5>
-    {projects['toy-projects'].map((project) => Project(project))}
+    {projects['toy-projects'].map((project) => <ProjectItem key={project.name} {...project} />)}
   </section>
 );
 

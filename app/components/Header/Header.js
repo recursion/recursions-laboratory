@@ -44,19 +44,19 @@ export default class Header extends React.PureComponent {
           <div className="navbar-start">
           </div>
           <div className="navbar-end">
-            <Link className="navbar-item router-link" to="/about">
+            <Link className="navbar-item router-link" onClick={this.handleMenuActiveChange} to="/about">
               About Me
             </Link>
-            <Link className="navbar-item router-link" to="/skills">
+            <Link className="navbar-item router-link" onClick={this.handleMenuActiveChange} to="/skills">
               Skills
             </Link>
-            <Link className="navbar-item router-link" to="/projects">
+            <Link className="navbar-item router-link" onClick={this.handleMenuActiveChange} to="/projects">
               Projects
             </Link>
-            <Link className="navbar-item router-link" to="/contact">
+            <Link className="navbar-item router-link" onClick={this.handleMenuActiveChange} to="/contact">
               Contact
             </Link>
-            <Link className="navbar-item router-link" to="/">
+            <Link className="navbar-item router-link" onClick={this.handleMenuActiveChange} to="/">
               Home
             </Link>
           </div>

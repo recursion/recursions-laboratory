@@ -22,7 +22,7 @@ const ProjectItem = (props) => (
           <hr />
           <a className="is-block" href={props.githubUrl}>Source code on Github</a>
           {(props.demoUrl) ?
-            <a className="is-block" href={props.demoUrl}>See a Demo</a> :
+            <a className="is-block" target="_blank" rel="noopener noreferrer" href={props.demoUrl}>See a Demo</a> :
             ''
           }
         </div>

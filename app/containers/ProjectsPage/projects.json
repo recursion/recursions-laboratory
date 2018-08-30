@@ -2,12 +2,12 @@
   "projects": {
     "toy-projects": [
       {
-        "name": "Simple Calculator",
-        "description": "A basic calculator written in vanilla JavaScript and vanilla css. Not coded to be maintained - so a bit sloppy and untested. Desktop only: not responsive or mobile friendly.",
-        "imageUrl": "images/calculator.png",
-        "tags": ["JavaScript", "CSS", "HTML"],
-        "githubUrl": "https://github.com/recursion/js-calculator",
-        "demoUrl": "/projects/calculator"
+        "name": "Conway's Game of Life",
+        "description": "Conway's game of life implemented in JavaScript with React. Mobile-first, responsive.",
+        "imageUrl": "images/conways.png",
+        "tags": ["JavaScript", "React", "CSS", "Bulma", "Webpack"],
+        "githubUrl": "https://github.com/recursion/js-conways-game-of-life",
+        "demoUrl": "projects/conways/index.html"
       },
       {
         "name": "Simon Game",
@@ -15,15 +15,15 @@
         "imageUrl": "images/simon.png",
         "tags": ["JavaScript", "CSS", "HTML"],
         "githubUrl": "https://github.com/recursion/simon",
-        "demoUrl": "projects/simon"
+        "demoUrl": "projects/simon/index.html"
       },
       {
-        "name": "Conway's Game of Life",
-        "description": "Conway's game of life implemented in JavaScript with React.",
-        "imageUrl": "images/conways-game.png",
-        "tags": ["JavaScript", "React", "CSS", "Bulma", "Webpack"],
-        "githubUrl": "https://github.com/recursion/js-conways-game-of-life",
-        "demoUrl": "projects/conways"
+        "name": "Simple Calculator",
+        "description": "A basic calculator written in vanilla JavaScript and vanilla css. Not coded to be maintained - so a bit sloppy and untested. Desktop only: not responsive or mobile friendly.",
+        "imageUrl": "images/calculator.png",
+        "tags": ["JavaScript", "CSS", "HTML"],
+        "githubUrl": "https://github.com/recursion/js-calculator",
+        "demoUrl": "/projects/calculator/index.html"
       }
     ],
     "applications": [

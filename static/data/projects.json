@@ -29,15 +29,15 @@
     "applications": [
       {
         "name": "Newsy",
-        "description": "A web client for searching the newsapi.org api.",
-        "imageUrl": "images/newsy-client.png",
+        "description": "A web client for searching the newsapi.org api. Provides a simple interface to the many search options available. Uses a simple express server to act as an api-key providing proxy to the newsapi.org site.",
+        "imageUrl": "images/newsy.png",
         "tags": ["JavaScript", "React", "Redux", "Webpack", "Bulma", "SCSS"],
         "githubUrl": "https://github.com/recursion/newsy-react-client",
         "demoUrl": "https://newsy.recursionslaboratory.org"
       },
       {
         "name": "JackBeNimble",
-        "description": "A google chrome extension that provides order-entry hotkeys for multiple bitcoin exchanges.",
+        "description": "A google chrome extension that provides order-entry hotkeys for multiple bitcoin exchanges. Easily extensible.",
         "imageUrl": "images/jbk.png",
         "tags": ["JavaScript", "Redux", "Webpack", "CSS"],
         "githubUrl": "https://github.com/recursion/jackBeNimble",
@@ -45,16 +45,16 @@
       },
       {
         "name": "HotkeyCommander",
-        "description": "An npm module that provides a sophisticated hotkey management system. Simple end-user configuration through hotkey recording.",
-        "imageUrl": "images/jbk.png",
+        "description": "A javascript module, published to npm, that provides a drop-in, robust hotkey management system with simple end-user customization through hotkey recording.",
+        "imageUrl": "images/hkc.png",
         "tags": ["JavaScript", "Redux", "Webpack", "CSS"],
         "githubUrl": "https://github.com/recursion/hotkeyCommander",
         "demoUrl": ""
       },
       {
         "name": "FlyptoX",
-        "description": "A cryptocurrency exchange written in Node.js. I was the 'project owner' and full stack developer on this multi-developer project.",
-        "imageUrl": "images/flyptox.png",
+        "description": "A full cryptocurrency exchange written in Node.js. Written over the course of about 5 weeks, I was the 'project owner' and a full stack developer on this 'agile', remote, multi-developer project.",
+        "imageUrl": "",
         "tags": ["JavaScript", "Angular", "Express", "Socket.io", "Postgres"],
         "githubUrl": "https://github.com/flipside/flyptox",
         "demoUrl": ""

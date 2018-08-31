@@ -3,7 +3,7 @@
     "toy-projects": [
       {
         "name": "Simple Calculator",
-        "description": "A basic calculator written in vanilla JavaScript and vanilla css. Not coded to be maintained - so a bit sloppy and untested. Desktop only: not responsive or mobile friendly.",
+        "description": "A basic calculator written in vanilla JavaScript and css. This was a quickly thrown together prototype and not built to be maintained. Desktop only: not responsive or mobile friendly.",
         "imageUrl": "images/calculator.png",
         "tags": ["JavaScript", "CSS", "HTML"],
         "githubUrl": "https://github.com/recursion/js-calculator",
@@ -37,7 +37,7 @@
       },
       {
         "name": "HotkeyCommander",
-        "description": "A javascript module, published to npm, that provides a drop-in, robust hotkey management system with simple end-user customization through hotkey recording.",
+        "description": "A javascript module, published to npm, that provides a drop-in, robust hotkey management system with simple end-user customization through hotkey recording and event subscriptions. This is the hotkey engine that powers JackBeNimble.",
         "imageUrl": "images/hkc.png",
         "tags": ["JavaScript", "Redux", "Webpack", "CSS"],
         "githubUrl": "https://github.com/recursion/hotkeyCommander",
@@ -45,7 +45,7 @@
       },
       {
         "name": "JackBeNimble",
-        "description": "A google chrome extension that provides user-configurable order-entry hotkeys for multiple bitcoin exchanges. Easily extensible.",
+        "description": "A google chrome extension that provides user-configurable order-entry hotkeys for multiple bitcoin exchanges. Easily extensible. This project was used extensivly by me, and after being published to the chrome web store, it did pick up a small number of users. As better options for crypto-exchange hotkeys emerged, I stopped maintaining the package, and pulled it from the store.",
         "imageUrl": "images/jbk.png",
         "tags": ["JavaScript", "Redux", "Webpack", "CSS"],
         "githubUrl": "https://github.com/recursion/jackBeNimble",
@@ -53,7 +53,7 @@
       },
       {
         "name": "FlyptoX",
-        "description": "A full-featured cryptocurrency exchange written in Node.js. Built over the course of about 5 weeks, I was the 'project owner' and a full stack developer on this 'agile', remote, project built by a team of 5.",
+        "description": "A full-featured cryptocurrency exchange written in Node.js. Built over the course of about 5 weeks, I was the 'project owner' and a full stack developer. Built using the 'agile' method, the project was created by a remote team of 5. We had some commercial interest in this project, but I was not willing to commit to maintaining this project as the lead developer.",
         "imageUrl": "",
         "tags": ["JavaScript", "Angular", "Express", "Socket.io", "Postgres"],
         "githubUrl": "https://github.com/flipside/flyptox",

@@ -7,11 +7,16 @@ export default class Header extends React.PureComponent {
   constructor(props) {
     super(props);
     this.state = { menuIsActive: false };
-    this.handleMenuActiveChange = this.handleMenuActiveChange.bind(this);
+    this.toggleMenu = this.toggleMenu.bind(this);
+    this.closeMenu = this.closeMenu.bind(this);
   }
 
-  handleMenuActiveChange() {
-    this.setState({ menuIsActive: !this.state.menuIsActive });
+  toggleMenu() {
+    this.setState((state) => ({ menuIsActive: !state.menuIsActive }));
+  }
+
+  closeMenu() {
+    this.setState(() => ({ menuIsActive: false }));
   }
 
   render() {
@@ -34,7 +39,7 @@ export default class Header extends React.PureComponent {
             className={`navbar-burger ${setMenuState}`}
             aria-label="menu"
             aria-expanded="false"
-            onClick={this.handleMenuActiveChange}
+            onClick={this.toggleMenu}
             onKeyPress={() => ''}
           >
             <span aria-hidden="true"></span>
@@ -46,16 +51,16 @@ export default class Header extends React.PureComponent {
           <div className="navbar-start">
           </div>
           <div className="navbar-end">
-            <Link className="navbar-item router-link" onClick={this.handleMenuActiveChange} to="/projects">
+            <Link className="navbar-item router-link" onClick={this.closeMenu} to="/projects">
               Projects
             </Link>
-            <Link className="navbar-item router-link" onClick={this.handleMenuActiveChange} to="/skills">
+            <Link className="navbar-item router-link" onClick={this.closeMenu} to="/skills">
               Skills
             </Link>
-            <Link className="navbar-item router-link" onClick={this.handleMenuActiveChange} to="/contact">
+            <Link className="navbar-item router-link" onClick={this.closeMenu} to="/contact">
               Contact
             </Link>
-            <Link className="navbar-item router-link" onClick={this.handleMenuActiveChange} to="/">
+            <Link className="navbar-item router-link" onClick={this.closeMenu} to="/">
               Home
             </Link>
           </div>

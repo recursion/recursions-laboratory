@@ -117,7 +117,7 @@ export default class ContactPage extends React.PureComponent {
             Wanna hire me? Discuss some of my work? Or just say Hi?
           </p>
           <p>
-            By all means.. reach out using this super cool contact form I built!!
+            By all means.. reach out using this <em>super cool</em> contact form I built!!
           </p>
           <div className="field">
             <label className="label" htmlFor="subject">Subject</label>

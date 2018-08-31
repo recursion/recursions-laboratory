@@ -6,7 +6,7 @@ const SkillItem = (skill) => {
   if (skill.name !== '' && skill.level !== '') {
     return (
       <div className="column is-one-third is-flex">
-        <div className={`notification ${colorPicker()}`}>
+        <div className={`notification ${colorPicker()} is-bold`}>
           <h1 className="title is-size-5">
             {skill.name}
           </h1>

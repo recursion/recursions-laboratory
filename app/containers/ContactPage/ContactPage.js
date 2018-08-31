@@ -114,8 +114,10 @@ export default class ContactPage extends React.PureComponent {
       <section className="section contact-page">
         <div className="container">
           <p>
-            Interested in hiring me? Discussing some of my work? Or whatever...
-            Go ahead.. reach out!
+            Wanna hire me? Discuss some of my work? Or just say Hi?
+          </p>
+          <p>
+            By all means.. reach out using this super cool contact form I built!!
           </p>
           <div className="field">
             <label className="label" htmlFor="subject">Subject</label>

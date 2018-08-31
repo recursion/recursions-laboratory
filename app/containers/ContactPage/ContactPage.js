@@ -2,7 +2,7 @@ import React from 'react';
 import './style.scss';
 
 const validateEmail = (email) => {
-  const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+  const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
   return re.test(String(email).toLowerCase());
 };
 
@@ -11,6 +11,7 @@ export default class ContactPage extends React.PureComponent {
     super(props);
     this.state = {
       submitted: false,
+      posted: false,
       subject: '',
       email: '',
       message: '',
@@ -25,7 +26,6 @@ export default class ContactPage extends React.PureComponent {
   }
 
   onSubmit() {
-    // submit form data here.
     if (this.state.subject === '') {
       this.setState(() => ({ subjectHelp: 'Subject must not be empty.' }));
       return;
@@ -45,7 +45,31 @@ export default class ContactPage extends React.PureComponent {
       this.setState(() => ({ messageHelp: 'Message must not be empty.' }));
       return;
     }
-    this.setState(() => ({ submitted: true }));
+    // only submit when all validations have passed
+    const content = {
+      subject: this.state.subject,
+      email: this.state.email,
+      message: this.state.email
+    };
+
+    const options = {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(content)
+    };
+
+    this.setState(() => ({ posted: true }));
+
+    fetch('/contact', options)
+      .then((response) => {
+        if (response.status === 200) {
+          this.setState(() => ({ submitted: true, posted: false }));
+        } else {
+          console.error(`Error response ${response.status} sent from server.`);
+        }
+      });
   }
 
   onSubjectChange(subject) {
@@ -70,6 +94,10 @@ export default class ContactPage extends React.PureComponent {
   }
 
   render() {
+    if (this.state.posted) {
+      return <div className="notification is-loading">Submitting</div>;
+    }
+
     if (this.state.submitted) {
       return (
         <div className="submitted-message has-text-centered is-size-1-desktop">

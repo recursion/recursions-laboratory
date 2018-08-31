@@ -13,6 +13,7 @@ import { Switch, Route } from 'react-router-dom';
 import HomePage from 'containers/HomePage/Loadable';
 import ProjectsPage from 'containers/ProjectsPage/Loadable';
 import NotFoundPage from 'containers/NotFoundPage/Loadable';
+import ContactPage from 'containers/ContactPage/Loadable';
 import Header from 'components/Header';
 import Footer from 'components/Footer';
 import './style.scss';
@@ -29,6 +30,7 @@ const App = () => (
     <Switch>
       <Route exact path="/" component={HomePage} />
       <Route path="/projects" component={ProjectsPage} />
+      <Route path="/contact" component={ContactPage} />
       <Route path="" component={NotFoundPage} />
     </Switch>
     <Footer />

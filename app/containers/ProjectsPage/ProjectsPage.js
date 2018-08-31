@@ -42,7 +42,7 @@ export default class ProjectsPage extends React.PureComponent {
         </section>
       );
     }
-    return <div>Unable to locate projects.</div>;
+    return <div className="is-loading">Unable to locate projects.</div>;
   }
 }
 

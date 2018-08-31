@@ -21,7 +21,9 @@ export default class Header extends React.PureComponent {
       <nav className="navbar" aria-label="main navigation">
         <div className="navbar-brand">
           <figure className="nav-bar-item image">
-            <img className="is-rounded" src={beakerImg} alt="Mad Scientist Muppet." />
+            <Link className="router-link column" to="/">
+              <img className="is-rounded" src={beakerImg} alt="Mad Scientist Muppet." />
+            </Link>
           </figure>
           <div className="navbar-item">
             <h5 className="title">Recursion&apos;s Laboratory</h5>

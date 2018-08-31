@@ -1,15 +1,10 @@
 footer {
-  margin-top: 20px;
+  margin-top: 5px;
   display: flex;
   justify-content: space-between;
   text-align: center;
   padding: 5px;
-
-  a {
-    color: #41addd;
-
-    &:hover {
-      color: #6cc0e5;
-    }
+  .router-links {
+    margin-top: 15px;
   }
 }

@@ -13,7 +13,7 @@ const Intro = () => (
       <hr />
       <div className="content is-size-5-desktop">
         <p>
-          A lifelong problem solver who loves creating,
+          A natural born problem solver who loves creating,
           learning, and exploring technology of all types.
           I&apos;ve been tinkering with computers since I was a kid in the mid 1980&apos;s,
           Linux since the early-mid 1990&apos;s, and the web almost since http first

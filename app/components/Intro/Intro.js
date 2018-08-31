@@ -31,6 +31,9 @@ const Intro = () => (
           to JavaScript fatigue and I am definitely looking forward to
           being able to use it more in the future.
         </p>
+        <p>
+          I am currently seeking opportunities that I can <em>passionately</em> sink my teeth into and that will help me grow as a developer. Got something interesting? <a>Contact me!</a>
+        </p>
       </div>
       <hr />
     </div>

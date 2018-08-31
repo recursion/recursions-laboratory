@@ -16,6 +16,11 @@
       "description": "I'm quite adept and comfortable with modern JavaScript including: Legacy, ES6, and some of ESNext. I have been tinkering with JS almost since it was first created, and while I still to check documention regularly (who has the memory not to?), I am very familiar with it's constructs, as well as employing the good parts, while avoiding the bad (I'm looking at you 'this')."
     },
     {
+      "name": "CSS/SCSS",
+      "level": "3",
+      "description": "I know my way around css and scss, and can generally get things positioned the way I need, particularly when using a library like bulma or bootstrap. I have dabbled with BEM naming. All of that said, design is not my strong suite. I can generally get things laid out and working responsively, but it likely wont be the most attractive thing you ever saw! My concept of color schemes is pretty attrocioius."
+    },
+    {
       "name": "Node.js",
       "level": "2",
       "description": "While node is ultimately JavaScript, there are absolutely some differences between working on front-end javascript and backend node, so I think it's worth mentioning. It has been a while since I've done any heavy back end work, but I have built a few pure node.js projects, and am capable of doing it when needed."

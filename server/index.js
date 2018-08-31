@@ -3,6 +3,7 @@
 const express = require('express');
 const path = require('path');
 const logger = require('./util//logger');
+const bodyParser = require('body-parser');
 
 const argv = require('./util/argv');
 const port = require('./util//port');
@@ -13,6 +14,15 @@ const app = express();
 
 // If you need a backend, e.g. an API, add your custom backend-specific middleware here
 // app.use('/api', myApi);
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
+
+app.post('/contact', (req, res) => {
+  // on a real server, do stuff with the info here
+  res.status(200);
+  res.send('Message Recieved');
+});
+
 app.use(express.static(path.join(__dirname, '..', 'static')));
 
 // In production we need to pass these values in instead of relying on webpack

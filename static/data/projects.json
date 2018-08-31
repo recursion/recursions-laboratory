@@ -2,12 +2,12 @@
   "projects": {
     "toy-projects": [
       {
-        "name": "Conway's Game of Life",
-        "description": "Conway's game of life implemented in JavaScript with React. Mobile-first, responsive.",
-        "imageUrl": "images/conways.png",
-        "tags": ["JavaScript", "React", "CSS", "Bulma", "Webpack"],
-        "githubUrl": "https://github.com/recursion/js-conways-game-of-life",
-        "demoUrl": "projects/conways/index.html"
+        "name": "Simple Calculator",
+        "description": "A basic calculator written in vanilla JavaScript and vanilla css. Not coded to be maintained - so a bit sloppy and untested. Desktop only: not responsive or mobile friendly.",
+        "imageUrl": "images/calculator.png",
+        "tags": ["JavaScript", "CSS", "HTML"],
+        "githubUrl": "https://github.com/recursion/js-calculator",
+        "demoUrl": "/projects/calculator/index.html"
       },
       {
         "name": "Simon Game",
@@ -18,12 +18,12 @@
         "demoUrl": "projects/simon/index.html"
       },
       {
-        "name": "Simple Calculator",
-        "description": "A basic calculator written in vanilla JavaScript and vanilla css. Not coded to be maintained - so a bit sloppy and untested. Desktop only: not responsive or mobile friendly.",
-        "imageUrl": "images/calculator.png",
-        "tags": ["JavaScript", "CSS", "HTML"],
-        "githubUrl": "https://github.com/recursion/js-calculator",
-        "demoUrl": "/projects/calculator/index.html"
+        "name": "Conway's Game of Life",
+        "description": "Conway's game of life implemented in JavaScript with React. Mobile-first, responsive.",
+        "imageUrl": "images/conways.png",
+        "tags": ["JavaScript", "React", "CSS", "Bulma", "Webpack"],
+        "githubUrl": "https://github.com/recursion/js-conways-game-of-life",
+        "demoUrl": "projects/conways/index.html"
       }
     ],
     "applications": [
@@ -36,14 +36,6 @@
         "demoUrl": "https://newsy.recursionslaboratory.org"
       },
       {
-        "name": "JackBeNimble",
-        "description": "A google chrome extension that provides order-entry hotkeys for multiple bitcoin exchanges. Easily extensible.",
-        "imageUrl": "images/jbk.png",
-        "tags": ["JavaScript", "Redux", "Webpack", "CSS"],
-        "githubUrl": "https://github.com/recursion/jackBeNimble",
-        "demoUrl": ""
-      },
-      {
         "name": "HotkeyCommander",
         "description": "A javascript module, published to npm, that provides a drop-in, robust hotkey management system with simple end-user customization through hotkey recording.",
         "imageUrl": "images/hkc.png",
@@ -52,8 +44,16 @@
         "demoUrl": ""
       },
       {
+        "name": "JackBeNimble",
+        "description": "A google chrome extension that provides user-configurable order-entry hotkeys for multiple bitcoin exchanges. Easily extensible.",
+        "imageUrl": "images/jbk.png",
+        "tags": ["JavaScript", "Redux", "Webpack", "CSS"],
+        "githubUrl": "https://github.com/recursion/jackBeNimble",
+        "demoUrl": ""
+      },
+      {
         "name": "FlyptoX",
-        "description": "A full cryptocurrency exchange written in Node.js. Written over the course of about 5 weeks, I was the 'project owner' and a full stack developer on this 'agile', remote, multi-developer project.",
+        "description": "A full-featured cryptocurrency exchange written in Node.js. Built over the course of about 5 weeks, I was the 'project owner' and a full stack developer on this 'agile', remote, project built by a team of 5.",
         "imageUrl": "",
         "tags": ["JavaScript", "Angular", "Express", "Socket.io", "Postgres"],
         "githubUrl": "https://github.com/flipside/flyptox",

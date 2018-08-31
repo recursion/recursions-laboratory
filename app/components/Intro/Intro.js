@@ -32,7 +32,7 @@ const Intro = () => (
           being able to use it more in the future.
         </p>
         <p>
-          I am currently seeking opportunities that I can <em>passionately</em> sink my teeth into and that will help me grow as a developer. Got something interesting? <a>Contact me!</a>
+          I am currently seeking fun and engaging opportunities that will help me grow as a developer. Got something interesting? <a>Contact me!</a>
         </p>
       </div>
       <hr />

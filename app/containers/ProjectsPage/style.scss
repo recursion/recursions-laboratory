@@ -1,13 +1,13 @@
 .projects {
-  .nav-container {
-    margin-bottom: 10px;
-
-    &__link {
-      margin: 20px;
-    }
-  }
-
   .hero {
     height: 44vh;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .projects {
+    .hero {
+      height: 46vh;
+    }
   }
 }

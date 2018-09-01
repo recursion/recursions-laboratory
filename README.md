@@ -27,15 +27,19 @@ Easiest way to get the full project is:
 ```git clone https://github.com/recursion/rec-labs-server```
 
 - install server deps.
-```npm install```
+```
+cd rec-labs-server
+npm install
+```
 
-- clone the client.
-```git clone https://github.com/recursion/recursions-laboratory```
+- clone the client - rename to client.
+```git clone https://github.com/recursion/recursions-laboratory client```
 
 - install client deps.
 ```
-cd recursions-laboratory
+cd client
 npm install
+npm build
 ```
 
 The client can be developed fully independantly of the server, but the server does need a client in /public to work.

@@ -61,7 +61,7 @@ export default class SkillsPage extends React.PureComponent {
   }
 
   static getDerivedStateFromProps(nextProps, prevState) {
-    if (nextProps.skills !== prevState.skills) {
+    if (nextProps.skills !== prevState.skills && nextProps.skills) {
       return {
         skills: sortByTitle(nextProps.skills)
       };

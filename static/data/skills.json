@@ -22,7 +22,7 @@
     },
     {
       "name": "Node.js",
-      "level": "2",
+      "level": "3",
       "description": "While node is ultimately JavaScript, there are absolutely some differences between working on front-end javascript and backend node, so I think it's worth mentioning. It has been a while since I've done any heavy back end work, but I have built a few pure node.js projects, and am capable of doing it when needed."
     },
     {
@@ -37,7 +37,7 @@
     },
     {
       "name": "DevOps",
-      "level": "3",
+      "level": "2",
       "description": "When it comes to linux and VPS setups, I am quite comfortable and capable of locking a system down, configuring and employing services, but my experience with 'cloud' services is pretty much limited to a bit of poking around with dropbox, heroku, aws, azure services. I would love to get some more experience in this area."
     },
     {

@@ -37,7 +37,9 @@ module.exports = require('./webpack.base.babel')({
       inject: true
     }),
     new CopyWebpackPlugin([
-      { from: './static/**/*' }
+      {
+        from: './static/',
+      },
     ])
   ],
 

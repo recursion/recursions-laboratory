@@ -47,7 +47,7 @@ export default class SkillsPage extends React.PureComponent {
     super(props);
     this.state = {
       search: '',
-      sortBy: 'level',
+      sortBy: 'alphabet',
       skills: []
     };
     this.onSearchChange = this.onSearchChange.bind(this);
@@ -63,7 +63,7 @@ export default class SkillsPage extends React.PureComponent {
   static getDerivedStateFromProps(nextProps, prevState) {
     if (nextProps.skills !== prevState.skills) {
       return {
-        skills: nextProps.skills
+        skills: sortByTitle(nextProps.skills)
       };
     }
     return null;

@@ -24,7 +24,7 @@ const ProjectItem = (props) => (
           {props.tags.join(', ')}
           <hr />
           {(props.githubUrl) ?
-            <a className="is-block" href={props.githubUrl}>Source code on Github</a> :
+            <a className="is-block" target="_blank" rel="noopener noreferrer" href={props.githubUrl}>Source code on Github</a> :
             ''
           }
           {(props.demoUrl) ?

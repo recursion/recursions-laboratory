@@ -51,6 +51,11 @@
       "description": "I have done some basic study in this area. I certainly understand Big O notation, and can generally determine if an algo falls within Constant, Linear, Quadratic or Logarithmic time. If its more mathmatically complex than one of those, I probably wouldnt be able to name it. I definitely will not be writing any ground breaking algos - but I generaly know enough to find one thats appropriate for my needs. Same goes for data structures - I wont be hand-coding any binary-search-trees, but I'll know when I need one, and how to find one that is well-implemented and tested."
     },
     {
+      "name": "TDD",
+      "level": "3",
+      "description": "While I have created several projects using Test Driven Development, I still find it to be a bit of a departure from my default mode of coding. That said, I definitely see the value of the test first approach, as it forces you to really think about your design. TDD has also helped me appreciate functional programming more, as pure functions really make the testing process much less painful. I would love to be in an environment where I got to do more of it."
+    },
+    {
       "name": "",
       "level": "",
       "description": ""

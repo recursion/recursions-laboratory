@@ -49,7 +49,7 @@ export default class ContactPage extends React.PureComponent {
     const content = {
       subject: this.state.subject,
       email: this.state.email,
-      message: this.state.email
+      message: this.state.message
     };
 
     const options = {

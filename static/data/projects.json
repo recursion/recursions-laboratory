@@ -3,7 +3,7 @@
     "toy-projects": [
       {
         "name": "Simple Calculator",
-        "description": "A basic calculator written in vanilla JavaScript and css. This project was created using pure TDD and jest. Desktop only: not responsive or mobile friendly.",
+        "description": "A basic calculator written in vanilla JavaScript and css. This project was created using test driven development with jest. Floating point arithmatic not yet supported. Originally created for desktop only, the calculator should now display on mobile too.",
         "imageUrl": "images/calculator.png",
         "tags": ["JavaScript", "CSS", "HTML"],
         "githubUrl": "https://github.com/recursion/calculator",

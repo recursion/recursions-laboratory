@@ -116,7 +116,7 @@ export default class ContactPage extends React.PureComponent {
           Wanna hire me? Discuss some of my work? Or just say Hi?
         </p>
         <p>
-          By all means.. reach out with this form, or by emails me at recursionslaboratory [at] &apos;gee&apos; mail [dot] com.!
+          By all means.. reach out with this form, or email me at recursionslaboratory [at] &apos;gee&apos; mail [dot] com.
         </p>
         <div className="field">
           <label className="label" htmlFor="subject">Subject</label>

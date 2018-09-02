@@ -96,7 +96,7 @@ export default class SkillsPage extends React.PureComponent {
     return (
       <section className="skills section">
         <h1 className="title has-text-centered">Skills (that pay the bills)</h1>
-        <div className="container is-size-5-desktop">
+        <div className="is-size-5-desktop">
           <p>
             Rating yourself is not easy, but I&apos;ll give it a try anyway.
             By far, my strongest abilities are in being able to jump around and make things

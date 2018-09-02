@@ -105,7 +105,7 @@ export default class SkillsPage extends React.PureComponent {
             To be fair, I&apos;m probably on the low end of Intermediate, and the high end of Junior.
           </p>
           <p className="has-text-centered has-text-weight-semibold">
-            Ranked on a scale of 1-5, with 1 being the lowest:
+            Ranked on a scale of 1-5, with 1 being beginner and 5 being expert:
           </p>
           <div className="skills-controls field is-flex">
             <div className="control">

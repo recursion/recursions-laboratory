@@ -112,71 +112,69 @@ export default class ContactPage extends React.PureComponent {
     }
     return (
       <section className="section contact-page">
-        <div className="container">
-          <p>
-            Wanna hire me? Discuss some of my work? Or just say Hi?
-          </p>
-          <p>
-            By all means.. reach out using this <em>super cool</em> contact form I built!!
-          </p>
-          <div className="field">
-            <label className="label" htmlFor="subject">Subject</label>
-            <div className="control">
-              <input
-                onChange={(e) => this.onSubjectChange(e.target.value)}
-                value={this.state.subject}
-                id="subject"
-                className={`input ${(this.state.subjectHelp) ? 'is-danger' : ''}`}
-                type="text"
-                placeholder="e.g Alex Smith"
-              />
-              {(this.state.subjectHelp !== '') ?
-                <p className="help is-danger">{this.state.subjectHelp}</p> :
-                ''
-              }
-            </div>
+        <p>
+          Wanna hire me? Discuss some of my work? Or just say Hi?
+        </p>
+        <p>
+          By all means.. reach out using this <em>super cool</em> contact form I built!!
+        </p>
+        <div className="field">
+          <label className="label" htmlFor="subject">Subject</label>
+          <div className="control">
+            <input
+              onChange={(e) => this.onSubjectChange(e.target.value)}
+              value={this.state.subject}
+              id="subject"
+              className={`input ${(this.state.subjectHelp) ? 'is-danger' : ''}`}
+              type="text"
+              placeholder="e.g Alex Smith"
+            />
+            {(this.state.subjectHelp !== '') ?
+              <p className="help is-danger">{this.state.subjectHelp}</p> :
+              ''
+            }
           </div>
+        </div>
 
-          <div className="field">
-            <label className="label" htmlFor="email">Your Email</label>
-            <div className="control">
-              <input
-                onChange={(e) => this.onEmailChange(e.target.value)}
-                value={this.state.email}
-                id="email"
-                className={`input ${(this.state.emailHelp) ? 'is-danger' : ''}`}
-                type="email"
-                placeholder="e.g. alexsmith@gmail.com"
-              />
-              {(this.state.emailHelp !== '') ?
-                <p className="help is-danger">{this.state.emailHelp}</p> :
-                ''
-              }
-            </div>
+        <div className="field">
+          <label className="label" htmlFor="email">Your Email</label>
+          <div className="control">
+            <input
+              onChange={(e) => this.onEmailChange(e.target.value)}
+              value={this.state.email}
+              id="email"
+              className={`input ${(this.state.emailHelp) ? 'is-danger' : ''}`}
+              type="email"
+              placeholder="e.g. alexsmith@gmail.com"
+            />
+            {(this.state.emailHelp !== '') ?
+              <p className="help is-danger">{this.state.emailHelp}</p> :
+              ''
+            }
           </div>
-          <div className="field">
-            <label className="label" htmlFor="message">Message</label>
-            <div className="control">
-              <textarea
-                onChange={(e) => this.onMessageChange(e.target.value)}
-                value={this.state.message}
-                id="message"
-                className={`textarea ${(this.state.messageHelp) ? 'is-danger' : ''}`}
-                placeholder="Textarea"
-              />
-              {(this.state.messageHelp !== '') ?
-                <p className="help is-danger">{this.state.messageHelp}</p> :
-                ''
-              }
-            </div>
+        </div>
+        <div className="field">
+          <label className="label" htmlFor="message">Message</label>
+          <div className="control">
+            <textarea
+              onChange={(e) => this.onMessageChange(e.target.value)}
+              value={this.state.message}
+              id="message"
+              className={`textarea ${(this.state.messageHelp) ? 'is-danger' : ''}`}
+              placeholder="Textarea"
+            />
+            {(this.state.messageHelp !== '') ?
+              <p className="help is-danger">{this.state.messageHelp}</p> :
+              ''
+            }
           </div>
-          <div className="field is-grouped">
-            <div className="control">
-              <button className="button is-link" onClick={this.onSubmit}>Submit</button>
-            </div>
-            <div className="control">
-              <button className="button is-text">Cancel</button>
-            </div>
+        </div>
+        <div className="field is-grouped">
+          <div className="control">
+            <button className="button is-link" onClick={this.onSubmit}>Submit</button>
+          </div>
+          <div className="control">
+            <button className="button is-text">Cancel</button>
           </div>
         </div>
       </section>

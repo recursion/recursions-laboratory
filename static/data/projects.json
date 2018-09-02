@@ -33,7 +33,7 @@
         "imageUrl": "images/newsy.png",
         "tags": ["JavaScript", "React", "Redux", "Webpack", "Bulma", "SCSS"],
         "githubUrl": "https://github.com/recursion/newsy-react-client",
-        "demoUrl": "https://newsy.recursionslaboratory.org"
+        "demoUrl": "https://newsy.recursionslaboratory.com"
       },
       {
         "name": "HotkeyCommander",

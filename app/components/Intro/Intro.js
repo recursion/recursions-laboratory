@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import BioPic from './images/selfie.png';
 import './style.scss';
 
@@ -32,7 +33,7 @@ const Intro = () => (
           being able to use it more in the future.
         </p>
         <p>
-          I am currently seeking fun and engaging opportunities that will help me grow as a developer. Got something interesting? <a>Contact me!</a>
+          I am currently seeking fun and engaging opportunities that will help me grow as a developer. Got something interesting?<Link className="navbar-item router-link is-inline" to="/contact">Contact me!</Link>
         </p>
       </div>
       <hr />

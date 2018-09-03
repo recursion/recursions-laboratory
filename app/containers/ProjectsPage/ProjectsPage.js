@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 import './style.scss';
 
 export default class ProjectsPage extends React.PureComponent {
-  componentWillMount() {
+  componentDidMount() {
     this.props.loadProjects();
   }
 

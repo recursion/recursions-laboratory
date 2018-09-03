@@ -3,7 +3,7 @@
     {
       "name": "Adaptability",
       "level": "5",
-      "description": "One of my greatest strengths is picking up a new technology and putting it to work. As a full stack 'generalist', I find this skill to be critical in my daily workflow."
+      "description": "One of my greatest strengths is picking up a new technology and putting it to work. As a full stack 'generalist', and someone who loves jumping into and learning about new tech stacks/languages/frameworks, I find this ability to be extremely valuable."
     },
     {
       "name": "RTFM",
@@ -13,22 +13,22 @@
     {
       "name": "JavaScript",
       "level": "4",
-      "description": "I'm quite adept and comfortable with modern JavaScript including: Legacy, ES6, and some of ESNext. I have been tinkering with JS almost since it was first created, and while I still to check documention regularly (who has the memory not to?), I am very familiar with it's constructs, as well as employing the good parts, while avoiding the bad (I'm looking at you 'this')."
+      "description": "I'm quite adept and comfortable with modern JavaScript including: Legacy, ES6, and some of ESNext. I have been tinkering with JS almost since it was first created, and while I still need to check documention regularly (who has the memory not to?), I am very familiar with it's constructs, as well as employing the good parts, while avoiding the bad (I'm looking at you 'this')."
     },
     {
       "name": "CSS/SCSS",
       "level": "3",
-      "description": "I know my way around css and scss, and can generally get things positioned the way I need, particularly when using a library like bulma or bootstrap. I have dabbled with BEM naming. All of that said, design is not my strong suite. I can generally get things laid out and working responsively, but it likely wont be the most attractive thing you ever saw! My concept of color schemes is pretty attrocioius."
+      "description": "I know my way around css and scss, and can generally get things positioned the way I need, particularly when using a library like bulma or bootstrap. All of that said, design is not my strong suite. I can generally get things laid out and working responsively, but it likely wont be the most attractive thing you ever saw! My concept of color schemes is pretty attrocious."
     },
     {
       "name": "Node.js",
       "level": "3",
-      "description": "While node is ultimately JavaScript, there are absolutely some differences between working on front-end javascript and backend node, so I think it's worth mentioning. It has been a while since I've done any heavy back end work, but I have built a few pure node.js projects, and am capable of doing it when needed."
+      "description": "While node is just JavaScript, there are absolutely some differences between working on front-end javascript and backend node, so I think it's worth mentioning seperately. It has been a while since I've done any heavy back end work, but I have done some work on the backend, and am capable of doing it when needed."
     },
     {
       "name": "React/Redux",
       "level": "3",
-      "description": "I have build a few projects recently using React/Redux and am quite familiar with the pattern. It's a nice way to build in JavaScript, and I'm quite comfortable working with these libraries."
+      "description": "I have build a few projects recently using React/Redux and am quite familiar with the pattern. I definitley like the focus on function programming and one way data flow. It's a nice way to build in JavaScript, and I'm quite comfortable working with these libraries. I have also tinkered a bit with reasonML/reasonReact and am looking forward to seeing where it goes."
     },
     {
       "name": "Git",
@@ -52,7 +52,7 @@
     },
     {
       "name": "TDD",
-      "level": "3",
+      "level": "2",
       "description": "While I have created several projects using Test Driven Development, I still find it to be a bit of a departure from my default mode of coding. That said, I definitely see the value of the test first approach, as it forces you to really think about your design. TDD has also helped me appreciate functional programming more, as pure functions really make the testing process much less painful. I would love to be in an environment where I got to do more of it."
     },
     {

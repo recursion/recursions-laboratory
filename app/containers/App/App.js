@@ -22,10 +22,11 @@ import './style.scss';
 const App = () => (
   <div className="app-wrapper">
     <Helmet
-      titleTemplate="%s - Recursion's Laboratory"
-      defaultTitle="What's happening in the lab?"
+      titleTemplate="%s - In the mind of a mad scientist."
+      defaultTitle="In the lab."
     >
       <meta name="description" content="About me, and some of the things I've built." />
+      <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js" integrity="sha384-kW+oWsYx3YpxvjtZjFXqazFpA7UP/MbiY4jvs+RWZo2+N94PFZ36T6TFkc9O3qoB" crossorigin="anonymous" />
     </Helmet>
     <Header />
     <Switch>

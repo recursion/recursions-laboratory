@@ -46,9 +46,9 @@ The client can be developed fully independantly of the server, but the server do
 
 ## Todo
 
-- Modularize any project text, so that it can be easily edited from json files. The text in the Intro component is a great target for this. Any other titles, or text that woulc be personalized from user to user could also be moved into its own json file (general.json - or something similar).
-
-- Custom theme/style packs could be implemented, so that users could customize the layout/style easily.
+[ ] Modularize all project text, so that it can be easily edited from json files. The text in the Intro component is a great target for this. Any other titles, or text that woulc be personalized from user to user could also be moved into its own json file (general.json - or something similar).
+[ ] Custom theme/style packs could be implemented, so that users could customize the layout/style easily.
+[ ] .toJS() calls need to be isolated to selectors only. There were a few spots I used these in an incorrect location, and these need to be consolidated.
 
 ## Contributing
 

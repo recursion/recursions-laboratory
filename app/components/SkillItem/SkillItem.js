@@ -19,7 +19,7 @@ export default class SkillItem extends React.PureComponent {
     if (!skill) return '';
     if (skill.name !== '' && skill.level !== '') {
       return (
-        <div className="skill-item column is-one-third is-flex">
+        <div className="skill-item column is-one-third is-flex has-text-white">
           <article className={`media notification ${colorPicker()} is-bold`}>
             <div className="media-content">
               <div className="content">
@@ -39,7 +39,7 @@ export default class SkillItem extends React.PureComponent {
                   Skill Level: {skill.level}
                 </h2>
                 <hr />
-                <p>
+                <p className="">
                   {(!this.state.expanded && skill.description.length > 145) ?
                     `${skill.description.slice(0, 145)}...` :
                     skill.description

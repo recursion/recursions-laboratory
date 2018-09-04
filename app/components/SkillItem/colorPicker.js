@@ -1,12 +1,10 @@
 
 // track the last color used
 const colors = [
-  'is-info',
-  'is-warning',
-  'is-link',
-  'is-primary',
-  'is-success',
-  'is-danger'
+  'is-green',
+  'is-yellow',
+  'is-red',
+  'is-blue'
 ];
 
 // Returns a random int between min-max inclusive

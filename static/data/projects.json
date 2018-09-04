@@ -45,7 +45,7 @@
       },
       {
         "name": "JackBeNimble",
-        "description": "A google chrome extension that provides user-configurable order-entry hotkeys for multiple bitcoin exchanges. Easily extensible. This project was used extensivly by me, and after being published to the chrome web store, it did pick up a small number of users. As better options for crypto-exchange hotkeys emerged, I stopped maintaining the package, and pulled it from the store.",
+        "description": "A google chrome extension that provides sophisticated, user-configurable order-entry hotkeys for multiple bitcoin exchanges. Easily extensible to more. This project was used extensivly by me, and after being published to the chrome web store, it did pick up a small number of users. As better options for crypto-exchange hotkeys emerged, I stopped maintaining the package, and pulled it from the store.",
         "imageUrl": "images/jbk.png",
         "tags": ["JavaScript", "Redux", "Webpack", "CSS"],
         "githubUrl": "https://github.com/recursion/jackBeNimble",
@@ -53,7 +53,7 @@
       },
       {
         "name": "FlyptoX",
-        "description": "A full-featured cryptocurrency exchange written in Node.js. Built over the course of about 5 weeks, I was the 'project owner' and a full stack developer. Built using the 'agile' method, the project was created by a remote team of 5. We had some commercial interest in this project, but I was not willing to commit to maintaining this project as the lead developer.",
+        "description": "A full-featured cryptocurrency exchange written in Node.js. This prototype was developed over the course of about 4 weeks during which I worked as 'project owner' and full stack developer. Built using the 'agile' method, the project was developed by a remote team of 5.",
         "imageUrl": "images/flyptox.png",
         "tags": ["JavaScript", "Angular", "Express", "Socket.io", "Postgres"],
         "githubUrl": "https://github.com/flipside/flyptox",

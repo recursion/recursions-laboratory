@@ -1,5 +1,14 @@
-.column {
+.skill-item {
+  .skill-icon {
+    margin-right: 10px !important;
+  }
   .notification {
     padding: 0.75rem;
+  }
+  h2 {
+    margin-bottom: 5px !important;
+  }
+  hr {
+    margin: 0.5rem;
   }
 }

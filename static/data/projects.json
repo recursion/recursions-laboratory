@@ -2,6 +2,14 @@
   "projects": {
     "toy-projects": [
       {
+        "name": "Conway's Game of Life",
+        "description": "Conway's game of life implemented in JavaScript with React. Mobile-first, responsive.",
+        "imageUrl": "images/conways.png",
+        "tags": ["JavaScript", "React", "CSS", "Bulma", "Webpack"],
+        "githubUrl": "https://github.com/recursion/conways-game-of-life",
+        "demoUrl": "projects/conways/index.html"
+      },
+      {
         "name": "Simple Calculator",
         "description": "A basic calculator written in vanilla JavaScript and css. This project was created using test driven development with jest. Floating point arithmatic not yet supported. Originally created for desktop only, the calculator should now display on mobile too.",
         "imageUrl": "images/calculator.png",
@@ -16,14 +24,6 @@
         "tags": ["JavaScript", "CSS", "HTML"],
         "githubUrl": "https://github.com/recursion/simon",
         "demoUrl": "projects/simon/index.html"
-      },
-      {
-        "name": "Conway's Game of Life",
-        "description": "Conway's game of life implemented in JavaScript with React. Mobile-first, responsive.",
-        "imageUrl": "images/conways.png",
-        "tags": ["JavaScript", "React", "CSS", "Bulma", "Webpack"],
-        "githubUrl": "https://github.com/recursion/conways-game-of-life",
-        "demoUrl": "projects/conways/index.html"
       }
     ],
     "applications": [
@@ -54,7 +54,7 @@
       {
         "name": "FlyptoX",
         "description": "A full-featured cryptocurrency exchange written in Node.js. Built over the course of about 5 weeks, I was the 'project owner' and a full stack developer. Built using the 'agile' method, the project was created by a remote team of 5. We had some commercial interest in this project, but I was not willing to commit to maintaining this project as the lead developer.",
-        "imageUrl": "",
+        "imageUrl": "images/flyptox.png",
         "tags": ["JavaScript", "Angular", "Express", "Socket.io", "Postgres"],
         "githubUrl": "https://github.com/flipside/flyptox",
         "demoUrl": ""

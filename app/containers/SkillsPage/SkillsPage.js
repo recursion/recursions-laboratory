@@ -27,7 +27,7 @@ const sortByTitle = (skills) => skills.sort((a, b) => {
 
 const displaySkills = (skills, search) => {
   if (search === '') {
-    return skills.map((skill) => <SkillItem key={skill.name} {...skill} />);
+    return skills.map((skill) => <SkillItem key={skill.name} skill={skill} />);
   }
 
   const filteredSkills = skills.filter((skill) => {
@@ -39,7 +39,8 @@ const displaySkills = (skills, search) => {
     }
     return false;
   });
-  return filteredSkills.map((skill) => <SkillItem key={skill.name} {...skill} />);
+
+  return filteredSkills.map((skill) => <SkillItem key={skill.name} skill={skill} />);
 };
 
 export default class SkillsPage extends React.PureComponent {
@@ -62,7 +63,7 @@ export default class SkillsPage extends React.PureComponent {
 
   static getDerivedStateFromProps(nextProps, prevState) {
     if (nextProps.skills !== prevState.skills && nextProps.skills) {
-      return Object.assign({}, prevState, { skills: this.sortByTitle(nextProps.skills) });
+      return Object.assign({}, prevState, { skills: sortByTitle(nextProps.skills) });
     }
     return null;
   }

@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import colorPicker from './colorPicker';
+import { colorByLevel } from './colorPicker';
 import './style.scss';
 
 export default class SkillItem extends React.PureComponent {
@@ -20,7 +20,7 @@ export default class SkillItem extends React.PureComponent {
     if (skill.name !== '' && skill.level !== '') {
       return (
         <div className="skill-item column is-one-third is-flex has-text-white">
-          <article className={`media notification ${colorPicker()} is-bold`}>
+          <article className={`media notification ${colorByLevel(skill.level)} is-bold`}>
             <div className="media-content">
               <div className="content">
                 <h1 className="title is-size-5">

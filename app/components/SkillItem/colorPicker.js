@@ -19,13 +19,29 @@ const getRandomIntInclusive = (min, max) => {
  * different than the last time it was called
  */
 let lastColor = '';
-const colorPicker = () => {
+const randomColor = () => {
   const color = colors[getRandomIntInclusive(0, colors.length - 1)];
   if (color === lastColor) {
-    return colorPicker();
+    return randomColor();
   }
   lastColor = color;
   return color;
 };
 
-export default colorPicker;
+const colorByLevel = (lvl) => {
+  switch (parseInt(lvl, 10)) {
+    case 5:
+    case 4:
+      return 'is-green';
+    case 3:
+      return 'is-blue';
+    case 2:
+      return 'is-yellow';
+    case 1:
+      return 'is-red';
+    default:
+      return 'is-red';
+  }
+};
+
+export { colorByLevel, randomColor };

@@ -70,7 +70,7 @@
       "name": "Elm",
       "level": "2",
       "icon": "fa fa-heart",
-      "description": "Elm is an awesome answer to JavaScript fatigue. This statically typed, functional language is opinionated with a small surface area, and is just a joy to work with. I absolutely love it. After working with javascript and trying to fit react, redux, immutable, typescript/flow, sagas together, Elm is like a breath of fresh air. I look forward to working with it more and seeing it's continued growth and development in the coming years."
+      "description": "Elm was really my introduction to statically-typed, functional programming - and it's awesome. While there are certainly some humps to get over with Elm, there is something magical about being able to refactor with confidence - knowing that everything will come back together without any loose ends or forgotten variables - you just dont get that in javascript. It's also really nice to get all the features (immutability, unidirectional data flow, etc) modern javascript is trying to force together - out of the box. I look forward to seeing this become a more commonly used approach to front-end development - and to using it more myself."
     },
     {
       "name": "",

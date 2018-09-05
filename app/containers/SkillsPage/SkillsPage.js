@@ -48,7 +48,7 @@ export default class SkillsPage extends React.PureComponent {
     super(props);
     this.state = {
       search: '',
-      sortBy: 'alphabet',
+      sortBy: 'level',
       skills: []
     };
     this.onSearchChange = this.onSearchChange.bind(this);

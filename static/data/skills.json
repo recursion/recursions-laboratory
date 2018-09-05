@@ -46,13 +46,13 @@
       "name": "DevOps",
       "level": "2",
       "icon": "fas fa-desktop",
-      "description": "When it comes to linux and VPS setups, I am quite comfortable and capable of locking a system down, configuring and employing services, but my experience with 'cloud' services is pretty much limited to a bit of poking around with dropbox, heroku, aws, azure services. I would love to get some more experience in this area."
+      "description": "When it comes to linux and VPS setups, I am quite comfortable and capable configuring and deplying services, but my experience with 'cloud' services is pretty much limited to a bit of poking around with dropbox, heroku, aws, azure services. I would love to get some more experience in this area. When it comes to wrestling with dev. environments I'm quite adept. :)"
     },
     {
       "name": "Databases",
       "level": "2",
       "icon": "fas fa-database",
-      "description": "I have used both SQL and noSQL databases over the years, and while It's been a while since I've done anything with one, I am certainly capable of setting up some tables, models, and creating basic interactions. I have a general grasp of relational models and normalization practices. This is one of those things where If I had to, I could get it working, but most likely it would need some refinement and optimizations."
+      "description": "I have used both SQL and noSQL databases over the years, and while It's been a while since I've done anything with one, I am certainly capable of configuring/deploying simple databases, as well as setting up tables, models, and creating basic interactions. I have worked with a team to architect and normalize a database for a reasonaly large application. I have a general grasp of relational models and normalization practices. I'm certain that with a little more experience, I would quickly increase my productivity with them, but for now, it's likely anything did with a database would be a bit slow, and likely full of optimization opportunities :P."
     },
     {
       "name": "Algorithms and Data Structures",
@@ -64,7 +64,7 @@
       "name": "TDD",
       "level": "2",
       "icon": "fa fa-clipboard list",
-      "description": "While I have created several projects using Test Driven Development, and studied the subject/practiced it in a variety of different ways, I still find it to be a bit of a departure from my default approach to writeing code. A lot of that is because I tend to do a lot of prototyping - where it doesnt always make sense - its not going to be maintained... That said, I definitely see the value of the test first approach, as it forces you to really think about your design. I think it makes a ton of sense for any project that is going to be refactored, maintained, and/or upgraded. TDD has also helped me appreciate functional programming more, as pure functions really make the testing process much less painful. I would love to be in an environment where I got to do more of it. Simple tests make sense... the more complex your tests are... the more likely they are to be buggy."
+      "description": "While I have created several projects using Test Driven Development, I still find it to be a bit of a departure from my default mode of coding. That said, I definitely see the value of the test first approach, as it forces you to really think about your design. TDD has also helped me appreciate functional programming more, as pure functions really make the testing process much less painful. I would love to be in an environment where I got to do more of it."
     },
     {
       "name": "Elm",
@@ -73,10 +73,10 @@
       "description": "Elm was really my introduction to statically-typed, functional programming - and it's awesome. While there are certainly some humps to get over with Elm, there is something magical about being able to refactor with confidence - knowing that everything will come back together without any loose ends or forgotten variables - you just dont get that in javascript. It's also really nice to get all the features (immutability, unidirectional data flow, etc) modern javascript is trying to force together - out of the box. I look forward to seeing this become a more commonly used approach to front-end development - and to using it more myself."
     },
     {
-      "name": "vim",
+      "name": "Vim",
       "level": "2",
       "icon": "fa fa-edit",
-      "description": "I'm no vim power user, for sure... but its basic commands are basically muscle memory at this point... I find simple hotkeys for common commands to be a very powerful tool to have at ones fingertips!"
+      "description": "Vim's basic editing and navigation commands are muscle memory at this point. I'm no vim power user, infact I use VSCode as my 'IDE' with it's powerful vim emulation plugin. It's awesome.  I like to think of it as a little editing wizardry at my fingertips!!"
     },
     {
       "name": "Bulma",

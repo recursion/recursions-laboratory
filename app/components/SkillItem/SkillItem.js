@@ -44,10 +44,10 @@ export default class SkillItem extends React.PureComponent {
                     `${skill.description.slice(0, 145)}...` :
                     skill.description
                   }
-                  <button className="is-small is-link is-inline" onClick={this.expand}>
+                  <button className="is-small is-outlined is-block is-pulled-right" onClick={this.expand}>
                     <em>
                       { (!this.state.expanded) ?
-                        '(more)' : '(less)'
+                        '...more' : '(less)'
                       }
                     </em>
                   </button>

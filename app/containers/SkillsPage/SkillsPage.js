@@ -63,7 +63,7 @@ export default class SkillsPage extends React.PureComponent {
 
   static getDerivedStateFromProps(nextProps, prevState) {
     if (nextProps.skills !== prevState.skills && nextProps.skills) {
-      return Othat pay the billsbject.assign({}, prevState, { skills: sortByTitle(nextProps.skills) });
+      return Object.assign({}, prevState, { skills: sortByTitle(nextProps.skills) });
     }
     return null;
   }

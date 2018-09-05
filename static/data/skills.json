@@ -58,19 +58,31 @@
       "name": "Algorithms and Data Structures",
       "level": "2",
       "icon": "fa fa-microchip",
-      "description": "I have done some basic study in this area. I certainly understand Big O notation, and can generally determine if an algo falls within Constant, Linear, Quadratic or Logarithmic time. If its more mathmatically complex than one of those, I probably wouldnt be able to name it. I definitely will not be writing any ground breaking algos - but I generaly know enough to find one thats appropriate for my needs. Same goes for data structures - I wont be hand-coding any binary-search-trees, but I'll know when I need one, and how to find one that is well-implemented and tested."
+      "description": "I definitely will not be writing any ground breaking algos - but I generally know when a special algorithm and/or data type might be needed. I have done some basic study and practice of/with algos and data structures - and will most likely . I certainly understand Big O notation, and can generally determine if an algo falls within Constant, Linear, Quadratic or Logarithmic time. If its more mathmatically complex than one of those, I probably wouldnt be able to name it.  Same goes for data structures - I wont be hand-coding any binary-search-trees, but I'll know when I need one, and how to find one that is well-implemented and tested."
     },
     {
       "name": "TDD",
       "level": "2",
       "icon": "fa fa-clipboard list",
-      "description": "While I have created several projects using Test Driven Development, I still find it to be a bit of a departure from my default mode of coding. That said, I definitely see the value of the test first approach, as it forces you to really think about your design. TDD has also helped me appreciate functional programming more, as pure functions really make the testing process much less painful. I would love to be in an environment where I got to do more of it."
+      "description": "While I have created several projects using Test Driven Development, and studied the subject/practiced it in a variety of different ways, I still find it to be a bit of a departure from my default approach to writeing code. A lot of that is because I tend to do a lot of prototyping - where it doesnt always make sense - its not going to be maintained... That said, I definitely see the value of the test first approach, as it forces you to really think about your design. I think it makes a ton of sense for any project that is going to be refactored, maintained, and/or upgraded. TDD has also helped me appreciate functional programming more, as pure functions really make the testing process much less painful. I would love to be in an environment where I got to do more of it. Simple tests make sense... the more complex your tests are... the more likely they are to be buggy."
     },
     {
       "name": "Elm",
       "level": "2",
       "icon": "fa fa-heart",
       "description": "Elm was really my introduction to statically-typed, functional programming - and it's awesome. While there are certainly some humps to get over with Elm, there is something magical about being able to refactor with confidence - knowing that everything will come back together without any loose ends or forgotten variables - you just dont get that in javascript. It's also really nice to get all the features (immutability, unidirectional data flow, etc) modern javascript is trying to force together - out of the box. I look forward to seeing this become a more commonly used approach to front-end development - and to using it more myself."
+    },
+    {
+      "name": "vim",
+      "level": "2",
+      "icon": "fa fa-edit",
+      "description": "I'm no vim power user, for sure... but its basic commands are basically muscle memory at this point... I find simple hotkeys for common commands to be a very powerful tool to have at ones fingertips!"
+    },
+    {
+      "name": "Bulma",
+      "level": "2",
+      "icon": "fab fa-css3-alt",
+      "description": "While I think I could make myself useful in any CSS library fairly quickly, it might be worth mentioning that I have been using Bulma.io lately. It makes lots of common styling tasks and building mobile-first,             responsive pages quicker, and easier."
     },
     {
       "name": "",

@@ -63,7 +63,7 @@ export default class SkillsPage extends React.PureComponent {
 
   static getDerivedStateFromProps(nextProps, prevState) {
     if (nextProps.skills !== prevState.skills && nextProps.skills) {
-      return Object.assign({}, prevState, { skills: sortByTitle(nextProps.skills) });
+      return Othat pay the billsbject.assign({}, prevState, { skills: sortByTitle(nextProps.skills) });
     }
     return null;
   }
@@ -94,7 +94,7 @@ export default class SkillsPage extends React.PureComponent {
 
     return (
       <section className="skills section">
-        <h1 className="title has-text-centered">Skills (that pay the bills)</h1>
+        <h1 className="title has-text-centered">Skills</h1>
         <div className="is-size-5-desktop">
           <p>
             Rating yourself is not easy, but I&apos;ll give it a try anyway.

@@ -28,6 +28,14 @@
     ],
     "applications": [
       {
+        "name": "App-Trax",
+        "description": "A react application that provides simple job search tracking. Currently under development. One of my deeper dives into testing with jest and enzyme.",
+        "imageUrl": "images/appTrax2.png",
+        "tags": ["JavaScript", "React", "Redux", "Jest", "Enzyme", "Webpack", "Bulma", "SCSS"],
+        "githubUrl": "https://github.com/recursion/app-trax",
+        "demoUrl": "https://lab.recursionslaboratory.com"
+      },
+      {
         "name": "Newsy",
         "description": "A web client for searching the newsapi.org api. Provides a simple interface to the many search options available. Uses a simple express server to act as an api-key providing proxy to the newsapi.org site.",
         "imageUrl": "images/newsy.png",

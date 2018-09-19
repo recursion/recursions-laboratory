@@ -1,8 +1,8 @@
-.hero {
+.hero.is-medium {
   height: 44.55vh;
 }
 @media screen and (min-width: 321px) {
-  .hero {
+  .hero.is-medium {
     height: 46.5vh;
   }
 }

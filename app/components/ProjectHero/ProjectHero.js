@@ -13,7 +13,7 @@ export default class ProjectHero extends React.PureComponent {
     this.setState((prevState) => ({ childrenVisible: !prevState.childrenVisible }));
   }
   render() {
-    const setSectionClass = `hero ${this.props.heroColor} ${(!this.state.childrenVisible) ? 'is-medium' : ''} is-bold`;
+    const setSectionClass = `hero ${this.props.heroColor} ${(!this.state.childrenVisible) ? 'is-medium' : 'is-small'} is-bold`;
     const setChildClass = `${(!this.state.childrenVisible) ? 'is-hidden' : ''}`;
 
     return (

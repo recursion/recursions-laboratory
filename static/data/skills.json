@@ -28,13 +28,13 @@
       "name": "Node.js",
       "level": "3",
       "icon": "fab fa-node",
-      "description": "While node is just JavaScript, there are absolutely some differences between working on front-end javascript and backend node, so I think it's worth mentioning seperately. It has been a while since I've done any heavy back end work, but I have done some work on the backend, and am capable of doing it when needed."
+      "description": "While Node is 'just JavaScript', there are absolutely some differences between working on front-end javascript and backend node, so I think it's worth mentioning seperately. It has been a while since I've done any heavy back end work, but I have done it, mostly with express/mongo/postgress oriented stacks, and I am capable of doing it when needed. I have worked with both websockets and REST Api's from the back (and front) end."
     },
     {
       "name": "React/Redux",
       "level": "3",
       "icon": "fab fa-react",
-      "description": "I have build a few projects recently using React/Redux and am quite familiar with the pattern. I definitley like the focus on function programming and one way data flow. It's a nice way to build in JavaScript, and I'm quite comfortable working with these libraries. I have also tinkered a bit with reasonML/reasonReact and am looking forward to seeing where it goes."
+      "description": "I have built a few projects recently using React/Redux and am quite familiar with the pattern. I definitely like Reacts functional nature and one way data flow. It's a nice way to build UI in JavaScript and I'm quite comfortable working with it, and it's related libraries. I have also tinkered a bit with ReasonML/ReasonReact and am looking forward to seeing it become more widely used as having static types, immutability, and redux type state out of the box is much nicer than all the boilerplate required to coerce javascript into using those patterns."
     },
     {
       "name": "Git",
@@ -46,7 +46,7 @@
       "name": "DevOps",
       "level": "2",
       "icon": "fas fa-desktop",
-      "description": "When it comes to linux and VPS setups, I am quite comfortable and capable configuring and deplying services, but my experience with 'cloud' services is pretty much limited to a bit of poking around with dropbox, heroku, aws, azure services. I would love to get some more experience in this area. When it comes to wrestling with dev. environments I'm quite adept. :)"
+      "description": "When it comes to linux and VPS setups, I am quite comfortable and capable of configuring and deplying services, using ssh, and the cli, but my experience with 'cloud' services is pretty much limited to a bit of reading and poking around with docker, heroku, aws, and azure services. I would love to get some more experience in this area. When it comes to wrestling with dev. environments I'm quite adept. :)"
     },
     {
       "name": "Databases",

@@ -98,13 +98,12 @@ export default class SkillsPage extends React.PureComponent {
         <div className="is-size-5-desktop">
           <p>
             Rating yourself is not easy, but I&apos;ll give it a try anyway.
-            By far, my strongest abilities are in being able to jump around and make things
-            work quickly and effeciently. If I had to label myself based on skills,
-            it would be something like <em>&apos;Intermediate Full-Stack Generalist&apos;</em>.
-            To be fair, I&apos;m probably on the low end of Intermediate, and the high end of Junior.
+            By far, my greatest strength is probably in being able to jump around across the stack and/or different languages/libraries and get things wired up and working..
           </p>
-          <p className="has-text-centered has-text-weight-semibold">
-            Ranked on a scale of 1-5, with 1 being beginner and 5 being expert:
+          <p>
+            If I had to label myself based on skills,
+            it would be something like <em>&apos;Intermediate Full-Stack Generalist&apos;</em>.
+            To be fair, I&apos;m probably on the low end of Intermediate, and the high end of Junior - that is to say I should be able to jump in to a project, get my development environment up and running and start contributing on day 1, without any hand holding - but my code will likely have some optimization and refactoring opportunties on first submission :)
           </p>
           <div className="skills-controls field is-flex">
             <div className="control">
@@ -116,6 +115,7 @@ export default class SkillsPage extends React.PureComponent {
                 onChange={(e) => this.onSearchChange(e.target.value)}
               />
             </div>
+
             <div className="control">
               <label className="label" htmlFor="sortBy">Sort By</label>
               <div className="select">
@@ -133,6 +133,9 @@ export default class SkillsPage extends React.PureComponent {
           </div>
         </div>
         <hr />
+        <p className="has-text-centered has-text-weight-semibold">
+          Ranked on a scale of 1-5, with 1 being beginner and 5 being expert:
+        </p>
         <div className="columns is-multiline">
           {
             displaySkills(this.state.skills, this.state.search)

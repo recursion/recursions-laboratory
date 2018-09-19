@@ -4,7 +4,7 @@ import './style.scss';
 
 const Footer = () => (
   <footer className="section">
-    <div className="container">
+    <div className="container is-fluid">
       <div className="has-text-centered">
         Built by Michael Symmes using <a href="https://reactjs.org">React</a> and <a href="https://bulma.io">Bulma</a>.
       </div>

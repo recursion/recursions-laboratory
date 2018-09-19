@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import ProjectItem from 'components/ProjectItem';
+import './style.scss';
 
 export default class ProjectHero extends React.PureComponent {
   constructor(props) {

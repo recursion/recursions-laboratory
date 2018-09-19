@@ -5,6 +5,15 @@ import PropTypes from 'prop-types';
 import './style.scss';
 
 export default class ProjectsPage extends React.PureComponent {
+  static props = {
+    loading: PropTypes.bool,
+    error: PropTypes.bool,
+    projects: PropTypes.oneOfType([
+      PropTypes.bool,
+      PropTypes.object
+    ])
+  };
+
   componentDidMount() {
     this.props.loadProjects();
   }
@@ -46,12 +55,4 @@ export default class ProjectsPage extends React.PureComponent {
   }
 }
 
-ProjectsPage.props = {
-  loading: PropTypes.bool,
-  error: PropTypes.bool,
-  projects: PropTypes.oneOfType([
-    PropTypes.bool,
-    PropTypes.object
-  ])
-};
 

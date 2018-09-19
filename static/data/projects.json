@@ -61,7 +61,7 @@
       },
       {
         "name": "FlyptoX",
-        "description": "A full-featured cryptocurrency exchange written in Node.js. This prototype was developed over the course of about 4 weeks during which I worked as 'project owner' and full stack developer. Built using the 'agile' method, the project was developed by a remote team of 5.",
+        "description": "A full-featured cryptocurrency exchange written in Node.js. Developed using the 'agile' method, the project was developed by a remote team of 5 over the course of about 5 weeks during which I worked as 'project owner' and full stack developer.",
         "imageUrl": "images/flyptox.png",
         "tags": ["JavaScript", "Angular", "Express", "Socket.io", "Postgres"],
         "githubUrl": "https://github.com/flipside/flyptox",
